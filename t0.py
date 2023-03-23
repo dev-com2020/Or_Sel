@@ -19,6 +19,7 @@ time.sleep(5)
 #  GLS ewfewf
 driver.find_element(By.CSS_SELECTOR, ".row:nth-child(4) .btn").click()
 
+# Pawel comment
 # Dane do formularz adresowego
 nadawca = "Alojzy Alojz"
 nad_kod = "31-205"
