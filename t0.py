@@ -16,7 +16,7 @@ driver.find_element(By.CLASS_NAME, "eupopup-closebutton").click()
 driver.find_element(By.PARTIAL_LINK_TEXT, "NADAJ").click()
 time.sleep(5)
 
-#  GLS
+#  GLS ewfewf
 driver.find_element(By.CSS_SELECTOR, ".row:nth-child(4) .btn").click()
 
 # Dane do formularz adresowego
