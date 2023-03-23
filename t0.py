@@ -6,7 +6,7 @@ from selenium.webdriver.edge.service import Service
 # gabriel
 service = Service(executable_path="msedgedriver.exe")
 driver = webdriver.Edge(service=service)
-
+driver = 0
 driver.maximize_window()
 driver.get("https://paczkadoukrainy.pl/pl/homepage")
 
