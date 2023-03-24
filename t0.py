@@ -3,10 +3,12 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service
-
+# gabriel
+# gabriel 2
 service = Service(executable_path="msedgedriver.exe")
 driver = webdriver.Edge(service=service)
-
+commit gabriel
+driver = 0
 driver.maximize_window()
 driver.get("https://paczkadoukrainy.pl/pl/homepage")
 
@@ -16,9 +18,10 @@ driver.find_element(By.CLASS_NAME, "eupopup-closebutton").click()
 driver.find_element(By.PARTIAL_LINK_TEXT, "NADAJ").click()
 time.sleep(5)
 
-#  GLS
+#  GLS ewfewf
 driver.find_element(By.CSS_SELECTOR, ".row:nth-child(4) .btn").click()
 
+# Pawel comment
 # Dane do formularz adresowego
 nadawca = "Alojzy Alojz"
 nad_kod = "31-205"
