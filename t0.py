@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service
 # gabriel
+# gabriel 2
 service = Service(executable_path="msedgedriver.exe")
 driver = webdriver.Edge(service=service)
 commit gabriel
